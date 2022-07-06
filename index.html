@@ -14,16 +14,16 @@
   <nav class="nav">
     <span class="nav__name">AL <span class="color">/</span></span>
     <div class="container">
-      <a href="#" class="nav-item is-active" active-color="#0303b5">Home</a>
-      <a href="#about" class="nav-item" active-color="#0303b5">About</a>
-      <a href="#portfolio" class="nav-item" active-color="#0303b5">Portfolio</a>
-      <a href="#contact" class="nav-item" active-color="#0303b5">Contact</a>
+      <a href="#" class="nav-item is-active" active-color="#2354f6">Home</a>
+      <a href="#about" class="nav-item" active-color="#2354f6">About</a>
+      <a href="#portfolio" class="nav-item" active-color="#2354f6">Portfolio</a>
+      <a href="#contact" class="nav-item" active-color="#2354f6">Contact</a>
       <span class="nav-indicator"></span>
     </div>
     </nav>
   <section id="home">
     <div class="main">
-      <img src="photos/Aguss.jpg" alt="" class="img">
+      <img src="assets/Aguss.jpg" alt="" class="img">
       <div class="home__div">
         <span>Hi!</span>
         <h1>I am Agustín Ludueña</h1>
@@ -55,11 +55,15 @@
           <i class="fa-brands fa-js-square fa-10x"></i>
           <h2 class="skill__name">JavaScript</h2>
         </div>
+        <div class="skill__item">
+          <i class="fa-brands fa-python fa-10x"></i>
+          <h2 class="skill__name">Python</h2>
+        </div>
       </div>
     </section>
   </section>
   <div class="btn">
-    <a class="link" href="photos/curriculum.png" download="curriculum.png">
+    <a class="link" href="assets/curriculum.png" download="curriculum.png">
       Download CV
     </a>
   </div>
@@ -70,37 +74,71 @@
     </div>
     <div class="projects-container">
       <div>
-        <article class="card-items">
+        <article id="img_1" class="card-items">
           <div class="card__content">
             <h3 class="card__title">Link Tree</h3>
-            <span class="card_subtitle">This is a little linkTree I made, when I started to programming</span>
-            <a href="https://agustinluduena.me/LinkTree/" target="_blank" class="card_description">Link</a>
-            <a href="https://github.com/Aguss-Coder/LinkTree" class="card_description">Repository</a>
+            <span class="card_subtitle"><p>A little LinkTree</p></span>
+            <p class="card_description">When I learned html and css I made this page to practice.</p>
+            <a href="https://agustinluduena.me/LinkTree/" target="_blank" class="card_link">Link</a>
+            <a href="https://github.com/Aguss-Coder/LinkTree" target="_blank" class="card_link">Repository</a>
           </div>
         </article>
       </div>
       <div>
-        <article class="card-items">
+        <article id="img_2" class="card-items">
           <div class="card__content">
-            <h3 class="card__title">Link Tree</h3>
-            <span class="card_subtitle">192...</span>
-            <a href="" target="_blank" class="card_description">Link</a>
-            <a href="" class="card_description">Repository</a>
+            <h3 class="card__title">"Minecraft" in python</h3>
+            <span class="card_subtitle"><p>A little copy of minecraft</p></span>
+            <p class="card_description">I did this when I was 
+              learning python, and I didn't finish it because 
+              everything broke :`(</p>
+            <a href="https://github.com/Aguss-Coder/Minecraft-Copy" target="_blank" class="card_link">Repository</a>
           </div>
         </article>
       </div>
       <div>
-        <article class="card-items">
+        <article id="img_3" class="card-items">
         <div class="card__content">
-          <h3 class="card__title">Link Tree</h3>
-          <span class="card_subtitle">192...</span>
-          <a href="" target="_blank" class="card_description">Link</a>
-          <a href="" class="card_description">Repository</a>
+          <h3 class="card__title">Portfolio</h3>
+          <span class="card_subtitle"><p>My first portfolio</p></span>
+          <p class="card_description">This was my first portfolio, which 
+            I did with basic html and css, the new one is nicer and uses js :)</p>
+          <a href="https://agustinluduena.me/portfolio/" target="_blank" class="card_link">Link</a>
+          <a href="https://github.com/Aguss-Coder/portfolio" target="_blank" class="card_link">Repository</a>
         </div>
       </article>
       </div>
     </div>
   </section>
+  <section id="contact">
+    <div class="contact__div-head">
+      <h3>Contact</h3>
+      <p>Contact me if you are interested to work 
+        together or if you want some in special
+      </p>
+    </div>
+    <div class="contact__div-content">
+      <a href="https://github.com/Aguss-Coder" target="_blank" class="contact__a">
+        <i class="fa-brands fa-github fa-3x"></i>
+        <p>GitHub</p>
+      </a>
+      <a href="https://www.instagram.com/aguss_lud/" target="_blank" class="contact__a">
+        <i class="fa-brands fa-instagram fa-3x"></i>
+        <p>Instagram</p>
+      </a>
+      <a href="https://www.linkedin.com/in/agustin-ludue%C3%B1a/" target="_blank" class="contact__a">
+        <i class="fa-brands fa-linkedin fa-3x"></i>
+        <p>LinkedIn</p>
+      </a>
+      <a href="https://discordapp.com/users/Aguss#3027" target="_blank" class="contact__a">
+        <i class="fa-brands fa-discord fa-3x"></i>
+        <p>Discord</p>
+      </a>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>Made with love by Aguss</p>
+  </footer>
 
   <!-- JS injection -->
   <script src="index.js" type="module"></script>

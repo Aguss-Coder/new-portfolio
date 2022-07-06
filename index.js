@@ -4,6 +4,7 @@ ScrollReveal({ reset: true });
 ScrollReveal().reveal('#home', { duration: 760 });
 ScrollReveal().reveal('#about', { duration: 760 });
 ScrollReveal().reveal('.btn', { duration: 760 });
+ScrollReveal().reveal('#portfolio', { duration: 760 });
 
 
 // navbar effect
