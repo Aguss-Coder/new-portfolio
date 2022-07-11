@@ -98,18 +98,21 @@
   background-image: url(https://1.bp.blogspot.com/-MGS7Y82aSog/YB5oegC37_I/AAAAAAAAADI/wTiHDISzDYokAClfkIJIaVMYgVg3Xqc3ACLcBGAsYHQ/s1280/n.jpg);
   height: 100vh;
   backdrop-filter: blur(4px);
+  display: block;
   background-attachment: fixed;
 }
 
 .main {
   background-color: rgba(0, 0, 0, .6);
   min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home__div{
   text-align: center;
-  margin-top: -15em;
-  margin-left: 23em;
+  padding-left: 3rem;
 }
 
 .home__div h1 {
@@ -125,8 +128,6 @@
 .img {
   width: 15em;
   border-radius: 50%;
-  margin-top: 10em;
-  margin-left: 17em;
 }
 
 #about {
@@ -242,6 +243,7 @@ color: #356f9e;
 
 #portfolio {
   color: var(--gray);
+  height: 100vh;
 }
 
 .portfolio-info {
@@ -362,7 +364,6 @@ color: #356f9e;
 #contact {
   color: var(--principal-0);
   background-color: var(--principal-800);
-  margin-top: 30rem;
 }
 
 .contact__div-head {
@@ -401,7 +402,7 @@ color: #356f9e;
 }
 
 .contact__a p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-top: .5rem;
 }
 
@@ -416,4 +417,14 @@ color: #356f9e;
 .footer p {
   color: var(--principal-0);
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .main {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
