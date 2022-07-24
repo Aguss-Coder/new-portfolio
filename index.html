@@ -9,24 +9,24 @@
     <title>Vite App</title>
   </head>
   <body class="font-robo">
-    <nav class="z-10 pl-4 flex items-center sticky top-0 text-principal-50 bg-principal-800">
+    <nav class="z-[100] pl-4 flex items-center sticky top-0 text-principal-50 bg-principal-800 text-xl">
       <span>AL </span><span class="text-principal">/</span>
     </nav>
-    <section id="home" class=" bg-fixed h-screen">
+    <section id="home" class="h-screen">
       <div class="absolute">
         <img class="blur-[1px] h-screen w-screen object-cover" src="assets/back.jpg" alt="">
       </div>
       <div class="relative flex items-center flex-col md:flex-row justify-center text-principal-50 text-[1.3rem] bg-black h-screen">
         <img class="rounded-full h-[12rem] object-cover w-[12rem] mb-8 md:mr-12" src="assets/Aguss.jpg" alt="">
         <div class="flex flex-col">
-          <div class="text-center">
+          <div class="text-center font-semibold">
             <p class="">Hi</p>
             <h2 class="text-principal">I am Agustin Ludueña</h2>
             <p class="">a Front-end developer</p>
           </div>
           <button class="bg-principal mt-8 p-2 rounded-md text-principal-50 min-h-[2.5rem] w-[7.3rem] font-semibold self-center">
             <a href="assets/curriculum.png" class="text-xs flex items-center" download="curriculum.png">
-              Download CV <p class="text-2xl inline-block pb-1 pl-1">&rarr;</p>
+              Download CV <p class="text-xl pb-1 pl-2">&rarr;</p>
             </a>
           </button>
         </div>
@@ -34,25 +34,38 @@
     </section>
     <section id="about" class="text-gray">
       <div class="text-center">
-        <h2 class="text-4xl py-4 font-semibold">About Me</h2>
-        <p class="px-2 pb-8">
+        <h2 class="text-4xl py-4 font-extrabold">About Me</h2>
+        <p class="px-2 pb-8 font-medium">
           I am a new front-end developer who is just starting in this huge world of technology.<br>
           I have experience in HTML, CSS and JavaScript, I'm always looking to learn something new, 
           now I'm learning react.js to be able to make better pages.
         </p>
       </div>
       <div class="flex flex-col items-center">
-        <h3 class="text-4xl py-4 font-semibold">Skills</h3>
+        <h3 class="text-3xl py-4 font-extrabold">Skills</h3>
         <div class="flex flex-col md:flex-row md:flex-wrap items-center justify-center">
           <i class="fa-brands fa-html5 fa-9x text-ht"></i>
-          <p class="text-2xl pb-8">HTML5</p>
+          <p class="text-xl pb-8 font-semibold">HTML5</p>
           <i class="fa-brands fa-css3 fa-9x text-cs"></i>
-          <p class="text-2xl pb-8">CSS3</p>
+          <p class="text-xl pb-8 font-semibold">CSS3</p>
           <i class="fa-brands fa-js fa-9x text-js"></i>
-          <p class="text-2xl pb-8">JavaScript</p>
+          <p class="text-xl pb-8 font-semibold">JavaScript</p>
           <i class="fa-brands fa-python fa-9x text-py"></i>
-          <p class="text-2xl pb-8">Python</p>
+          <p class="text-xl pb-8 font-semibold">Python</p>
         </div>
+      </div>
+    </section>
+    <section id="portfolio" class="z-50 flex justify-center items-center flex-col">
+      <h3 class="font-extrabold text-4xl">Portfolio</h3>
+      <p class="pt-8 font-semibold">Here you can see my projects</p>
+      <div class="w-[14rem] h-[18rem] mt-14  shadow-2xl">
+        <img src="assets/link_tree.jpeg" alt="" class="h-[6.5rem] object-cover">
+      </div>
+      <div class="w-[14rem] h-[18rem] mt-14 border shadow-2xl">
+        <img src="assets/link_tree.jpeg" alt="" class="h-[6.5rem] object-cover">
+      </div>
+      <div class="w-[14rem] h-[18rem] mt-14 border shadow-2xl">
+        <img src="assets/link_tree.jpeg" alt="" class="h-[6.5rem] object-cover">
       </div>
     </section>
 

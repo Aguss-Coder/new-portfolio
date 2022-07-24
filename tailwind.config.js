@@ -8,9 +8,6 @@ module.exports = {
     extend: {
       fontFamily: {
         'robo': ['Roboto', 'sans-serif']
-      },
-      backgroundImage: {
-        'code-pattern': 'url(https://1.bp.blogspot.com/-MGS7Y82aSog/YB5oegC37_I/AAAAAAAAADI/wTiHDISzDYokAClfkIJIaVMYgVg3Xqc3ACLcBGAsYHQ/s1280/n.jpg)'
       }
     },
     colors: {
